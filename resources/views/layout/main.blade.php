@@ -16,10 +16,11 @@
     <link href="assets/css/main.css" rel="stylesheet">
     <link href="assets/css/responsive.css" rel="stylesheet">
     <script src="assets/js/html5shiv.js"></script>
-    {{-- <script src="assets/js/respond.min.js"></script> --}}
-    {{-- <link rel="shortcut icon" href="assets/images/ico/favicon.ico"> --}}
+    <link href="assets/css/whatsapp.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
-    {{--    <link rel="apple-touch-icon-precomposed" href="assets/images/ico/apple-touch-icon-57-precomposed.png"> --}}
+
+
 </head>
 
 <body>

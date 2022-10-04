@@ -69,10 +69,9 @@
                 </div>
             </div>
             <div class="col-sm-3">
-                <div class="address">
-                    <img src="assets/images/home/map.png" alt="" />
-                    <p>505 S Atlantic Ave Virginia Beach, VA(Virginia)</p>
-                </div>
+                <a href="https://wa.link/urwnho" class="btn-whatsapp-pulse">
+                    <i class="fa fa-whatsapp"></i>
+                </a>
             </div>
         </div>
     </div>
