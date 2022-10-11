@@ -39,6 +39,10 @@
     <section>
         <div class="container">
             @yield('index')
+            @yield('product-details')
+            @yield('shop')
+            @yield('contact')
+            @yield('checkout')
         </div>
     </section>
 

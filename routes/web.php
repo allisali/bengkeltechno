@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\C_checkout;
+use App\Http\Controllers\C_home;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,3 +18,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('index');
 });
+
+Route::get('/product-details', [C_home::class, 'productDetails']);
+Route::get('/home', [C_home::class, 'index']);
+Route::get('/contact', [C_home::class, 'contact']);
+Route::get('/shop', [C_home::class, 'shop']);
+Route::get('/checkout', [C_checkout::class, 'checkout']);
