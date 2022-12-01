@@ -1,7 +1,9 @@
 <?php
 
+use App\Http\Controllers\C_admin;
 use App\Http\Controllers\C_checkout;
 use App\Http\Controllers\C_home;
+use App\Http\Controllers\C_Item;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -15,12 +17,18 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-});
 
-Route::get('/product-details', [C_home::class, 'productDetails']);
-Route::get('/home', [C_home::class, 'index']);
-Route::get('/contact', [C_home::class, 'contact']);
-Route::get('/shop', [C_home::class, 'shop']);
-Route::get('/checkout', [C_checkout::class, 'checkout']);
+
+Route::get('/', [C_home::class, 'index']);
+
+
+
+Route::get('product-details', [C_home::class, 'productDetails']);
+Route::get('home', [C_home::class, 'index']);
+Route::get('contact', [C_home::class, 'contact']);
+Route::get('shop', [C_home::class, 'shop']);
+Route::get('checkout', [C_home::class, 'checkout']);
+Route::get('login', [C_home::class, 'login']);
+Route::get('cart', [C_home::class, 'cart']);
+Route::get('admin', [C_admin::class, 'index']);
+Route::get('admin/list', [C_admin::class, 'getData'])->name('admin.list');

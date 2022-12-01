@@ -8,6 +8,6 @@ class C_checkout extends Controller
 {
     public function checkout()
     {
-        return view('checkout');
+        return view('');
     }
 }
