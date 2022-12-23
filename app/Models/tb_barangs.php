@@ -14,8 +14,14 @@ class tb_barangs extends Model
         'ID',
         'BARANG',
         'ID_BARANG',
-        'HARGA',
-        'KATEGORI'
+        'KATEGORI',
+        'MERK',
+        'HARGA_BELI',
+        'HARGA_JUAL',
+        'GAMBAR',
+        'LAST_UPDATED',
+        'CREATED_AT',
+        'UPDATE_AT'
     ];
 
 

@@ -32,14 +32,13 @@
 
         {{-- Start Sidebar --}}
         @include('modules.admin.template.sidebar')
-
         {{-- End Sidebar --}}
 
         <div class="main-content">
             {{-- Start Content --}}
             @yield('index')
+            @yield('databarang')
             {{-- End Content --}}
-
         </div>
 
         <div class="settings">

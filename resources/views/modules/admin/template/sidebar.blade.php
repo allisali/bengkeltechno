@@ -10,94 +10,71 @@
         </a>
     </div>
     <div class="sidebar-header">
-        <div class="text">AR</div>
+        <div class="text">BT</div>
         <div class="close-sidebar action-toggle">
             <i class="ti-close"></i>
         </div>
     </div>
     <div class="sidebar-content">
         <ul>
-            <li class="active">
-                <a href="#" class="link">
+            <li class="{{ Request::path() == 'admin' ? 'active' : '' }}">
+                <a href="admin" class="link">
                     <i class="ti-home"></i>
                     <span>Dashboard</span>
                 </a>
             </li>
-            <li>
-                <a href="#" class="main-menu has-dropdown">
-                    <i class="ti-desktop"></i>
-                    <span>UI Elements</span>
+            <li class="{{ Request::path() == 'databarang' ? 'active' : '' }}">
+                <a href="databarang" class="link">
+                    <i class="ti-bookmark"></i>
+                    <span>Data Barang</span>
                 </a>
-                <ul class="sub-menu ">
-                    <li><a href="#" class="link"><span>Elements</span></a></li>
-
-                </ul>
             </li>
-            <li>
-                <a href="#" class="main-menu has-dropdown">
-                    <i class="ti-book"></i>
-                    <span>Form</span>
+            <li class="{{ Request::path() == 'addbarang' ? 'active' : '' }}">
+                <a href="addbarang" class="link">
+                    <i class="ti-package"></i>
+                    <span>Tambah Barang</span>
                 </a>
-                <ul class="sub-menu ">
-                    <li><a href="form-element.html" class="link">
-                            <span>Form Element</span></a>
-                    </li>
-                    <li><a href="form-datepicker.html" class="link">
-                            <span>Datepicker</span></a>
-                    </li>
-                    <li><a href="form-select2.html" class="link">
-                            <span>Select2</span></a>
-                    </li>
-                </ul>
             </li>
-            <li>
-                <a href="#" class="main-menu has-dropdown">
-                    <i class="ti-notepad"></i>
-                    <span>Utilities</span>
+            <li class="{{ Request::path() == 'kategori' ? 'active' : '' }}">
+                <a href="kategori" class="link">
+                    <i class="ti-pencil"></i>
+                    <span>kategori</span>
                 </a>
-                <ul class="sub-menu">
-                    <li><a href="error-404.html" target="_blank" class="link"><span>Error 404</span></a>
-                    </li>
-                    <li><a href="error-403.html" target="_blank" class="link"><span>Error 403</span></a>
-                    </li>
-                    <li><a href="error-500.html" target="_blank" class="link"><span>Error 500</span></a>
-                    </li>
-                </ul>
             </li>
-            <li>
-                <a href="#" class="main-menu has-dropdown">
-                    <i class="ti-layers-alt"></i>
-                    <span>Pages</span>
+            <li class="{{ Request::path() == 'addkategori' ? 'active' : '' }}">
+                <a href="addkategori" class="link">
+                    <i class="ti-pencil-alt"></i>
+                    <span>Tambah kategori</span>
                 </a>
-                <ul class="sub-menu ">
-                    <li><a href="pages-blank.html" class="link"><span>Blank</span></a></li>
-                </ul>
             </li>
-            <li>
-                <a href="#" class="main-menu has-dropdown">
-                    <i class="ti-hummer"></i>
-                    <span>Auth</span>
+            <li class="{{ Request::path() == 'transaksi' ? 'active' : '' }}">
+                <a href="transaksi" class="link">
+                    <i class="ti-wallet"></i>
+                    <span>Transaksi Jual</span>
                 </a>
-                <ul class="sub-menu">
-                    <li><a href="auth-login.html" target="_blank" class="link"><span>Login</span></a></li>
-                    <li><a href="auth-register.html" target="_blank" class="link"><span>Register</span></a>
-                    </li>
-                </ul>
             </li>
-            <li>
-                <a href="#" class="main-menu has-dropdown">
-                    <i class="ti-write"></i>
-                    <span>Tables</span>
+            <li class="{{ Request::path() == 'laporan' ? 'active' : '' }}">
+                <a href="laporan" class="link">
+                    <i class="ti-folder"></i>
+                    <span>Laporan Penjualan</span>
                 </a>
-                <ul class="sub-menu ">
-                    <li><a href="table-basic.html" class="link"><span>Table Basic</span></a></li>
-                    <li><a href="table-datatables.html" class="link"><span>DataTables</span></a></li>
-                </ul>
             </li>
-            <li>
-                <a href="charts.html" class="link">
-                    <i class="ti-bar-chart"></i>
-                    <span>Charts</span>
+            <li class="{{ Request::path() == 'user' ? 'active' : '' }}">
+                <a href="user" class="link">
+                    <i class="ti-user"></i>
+                    <span>User</span>
+                </a>
+            </li>
+            <li class="{{ Request::path() == 'setting' ? 'active' : '' }}">
+                <a href="setting" class="link">
+                    <i class="ti-settings"></i>
+                    <span>Setting</span>
+                </a>
+            </li>
+            <li class="{{ Request::path() == 'cms' ? 'active' : '' }}">
+                <a href="cms" class="link">
+                    <i class="ti-server"></i>
+                    <span>CMS</span>
                 </a>
             </li>
         </ul>
