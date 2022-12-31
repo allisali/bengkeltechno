@@ -25,7 +25,7 @@ class C_barang extends Controller
         $request->validate([
             'ID_BARANG' => 'required',
             'BARANG' => 'required',
-            'KATEGORI' => 'required',
+            'JENIS_BARANG' => 'required',
             'MERK' => 'required',
             'STOK' => 'REQUIRED',
             'HARGA_BELI' => 'required',
@@ -51,7 +51,7 @@ class C_barang extends Controller
     {
         if ($request->ajax()) {
             $data = tb_barangs::join('tb_kategoris', 'tb_barangs.KATEGORI', '=', 'tb_kategoris.ID')
-                ->select(['tb_barangs.ID', 'tb_barangs.ID_BARANG', 'tb_barangs.BARANG', 'tb_kategoris.KATEGORI', 'tb_barangs.MERK', 'tb_barangs.STOK', 'tb_barangs.HARGA_BELI', 'tb_barangs.HARGA_JUAL',]);
+                ->select(['tb_barangs.ID', 'tb_barangs.ID_BARANG', 'tb_barangs.BARANG', 'tb_kategoris.JENIS_BARANG', 'tb_barangs.MERK', 'tb_barangs.STOK', 'tb_barangs.HARGA_BELI', 'tb_barangs.HARGA_JUAL',]);
             return DataTables()::of($data)
                 ->addIndexColumn()
                 ->addColumn('action', function () {

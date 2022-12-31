@@ -18,12 +18,14 @@
                             <div class="col-sm-6">
                                 <h1><span>Bengkel</span>-Techno</h1>
                                 <h2>Free</h2>
-                                <p>Belanja Murah Harga Hemat</p>
+                                <p>Belanja Murah Harga HematLorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                    sed do eiusmod tempor incididunt.
+                                </p>
                                 <button type="button" class="btn btn-default get">Get it now</button>
                             </div>
                             <div class="col-sm-6">
-                                <img src="assets/images/home/girl1.jpg" class="girl img-responsive" alt="" />
-                                <img src="assets/images/home/pricing.png" class="pricing" alt="" />
+                                <img src="" class="girl img-responsive" alt="" />
+                                <img src="" class="pricing" alt="" />
                             </div>
                         </div>
                         <div class="item">
@@ -35,8 +37,8 @@
                                 <button type="button" class="btn btn-default get">Get it now</button>
                             </div>
                             <div class="col-sm-6">
-                                <img src="assets/images/home/girl2.jpg" class="girl img-responsive" alt="" />
-                                <img src="assets/images/home/pricing.png" class="pricing" alt="" />
+                                <img src="" class="girl img-responsive" alt="" />
+                                <img src="" class="pricing" alt="" />
                             </div>
                         </div>
 
@@ -49,8 +51,8 @@
                                 <button type="button" class="btn btn-default get">Get it now</button>
                             </div>
                             <div class="col-sm-6">
-                                <img src="assets/images/home/girl3.jpg" class="girl img-responsive" alt="" />
-                                <img src="assets/images/home/pricing.png" class="pricing" alt="" />
+                                <img src="" class="girl img-responsive" alt="" />
+                                <img src="" class="pricing" alt="" />
                             </div>
                         </div>
                     </div>

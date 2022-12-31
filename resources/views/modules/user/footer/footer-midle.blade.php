@@ -13,18 +13,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-sm-2">
-                <div class="single-widget">
-                    <h2>Quock Shop</h2>
-                    <ul class="nav nav-pills nav-stacked">
-                        <li><a href="#">T-Shirt</a></li>
-                        {{-- <li><a href="#">Mens</a></li>
-                        <li><a href="#">Womens</a></li>
-                        <li><a href="#">Gift Cards</a></li>
-                        <li><a href="#">Shoes</a></li> --}}
-                    </ul>
-                </div>
-            </div>
+
             <div class="col-sm-2">
                 <div class="single-widget">
                     <h2>Policies</h2>
@@ -37,9 +26,9 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-sm-2">
+            <div class="col-sm-3">
                 <div class="single-widget">
-                    <h2>About Shopper</h2>
+                    <h2>About Bengkel Techno</h2>
                     <ul class="nav nav-pills nav-stacked">
                         <li><a href="#">Company Information</a></li>
                         {{-- <li><a href="#">Careers</a></li>
@@ -51,7 +40,7 @@
             </div>
             <div class="col-sm-3 col-sm-offset-1">
                 <div class="single-widget">
-                    <h2>About Shopper</h2>
+                    <h2>About Bengkel Techno</h2>
                     <form action="#" class="searchform">
                         <input type="text" placeholder="Your email address" />
                         <button type="submit" class="btn btn-default"><i

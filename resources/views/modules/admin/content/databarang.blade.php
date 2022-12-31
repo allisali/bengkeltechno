@@ -60,7 +60,7 @@ var table = $('.yajra-datatable').DataTable({
         { data: 'ID', name: 'Id' },
         { data: 'BARANG', className: 'dt-body-left', name: 'barang' },
         { data: 'MERK', className: 'dt-body-left', name: 'merk' },
-        { data: 'KATEGORI', className: 'dt-body-left', name: 'kategori' },
+        { data: 'JENIS_BARANG', className: 'dt-body-left', name: 'jenis_barang' },
         { data: 'MERK', className: 'dt-body-left', name: 'merk' },
         { data: 'STOK', className: 'dt-body-left', name: 'stok' },
         { data: 'HARGA_BELI', render: $.fn.dataTable.render.number(',', '.', 2, 'Rp. '), className: 'dt-body-left', name: 'harga_beli' },

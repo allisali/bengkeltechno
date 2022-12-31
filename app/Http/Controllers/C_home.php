@@ -11,7 +11,9 @@ class C_home extends Controller
     // Start Methode Index
     public function productDetails()
     {
-        return view('modules.user.product-details');
+        $content = tb_barangs::all();
+        $category = tb_kategoris::all();
+        return view('modules.user.details.product-details', compact('category', 'content'));
     }
 
     public function index()

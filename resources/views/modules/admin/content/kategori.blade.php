@@ -51,8 +51,8 @@
           ajax: "{{ route('kategori.list') }}",
           columns: [
               {data: 'ID', name: 'Id'},
-              {data: 'KATEGORI', name: 'kategori'},
-              {data: 'TANGGAL_INPUT', name: 'tanggal_input'},
+              {data: 'KODE', name: 'Kode Barang'},
+              {data: 'JENIS_BARANG', name: 'Kategori'},
               {
                   data: 'action',
                   name: 'action',
