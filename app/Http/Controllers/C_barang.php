@@ -51,7 +51,7 @@ class C_barang extends Controller
     {
         if ($request->ajax()) {
             $data = tb_barangs::join('tb_kategoris', 'tb_barangs.KATEGORI', '=', 'tb_kategoris.ID')
-                ->select(['tb_barangs.ID', 'tb_barangs.ID_BARANG', 'tb_barangs.BARANG', 'tb_kategoris.JENIS_BARANG', 'tb_barangs.MERK', 'tb_barangs.STOK', 'tb_barangs.HARGA_BELI', 'tb_barangs.HARGA_JUAL',]);
+                ->select(['tb_barangs.ID', 'tb_barangs.KODE_BARANG', 'tb_barangs.NAMA_BARANG', 'tb_kategoris.KATEGORI', 'tb_barangs.STOK_BARANG', 'tb_barangs.HARGA_BELI', 'tb_barangs.HARGA_JUAL',]);
             return DataTables()::of($data)
                 ->addIndexColumn()
                 ->addColumn('action', function () {

@@ -21,8 +21,8 @@
                         <thead>
                             <tr>
                                 <th>No</th>
+                                <th>Kode Kategori</th>
                                 <th>Kategori</th>
-                                <th>Tangagal Input</th>
                                 <th>Action</th>
                             </tr>
                         </thead>
@@ -51,8 +51,8 @@
           ajax: "{{ route('kategori.list') }}",
           columns: [
               {data: 'ID', name: 'Id'},
-              {data: 'KODE', name: 'Kode Barang'},
-              {data: 'JENIS_BARANG', name: 'Kategori'},
+              {data: 'KODE_KATEGORI', className: 'dt-body-left', name: 'Kode Kategori'},
+              {data: 'KATEGORI', className: 'dt-body-left', name: 'Kategori'},
               {
                   data: 'action',
                   name: 'action',

@@ -16,7 +16,7 @@
                     @foreach ($content as $con)
                     <ul>
                         @if ($con->KATEGORI == $cat->ID)
-                        <li><a href="#">{{ $con->BARANG }}</a></li>
+                        <li><a href="#">{{ $con->NAMA_BARANG }}</a></li>
                         @endif
                     </ul>
                     @endforeach
